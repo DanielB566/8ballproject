@@ -1,0 +1,19 @@
+.style {
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: white;
+    font-size: 40px;
+ }
+ .style:hover {animation: shaking 0.5s infinite;
+background-color: green;}
+ @keyframes shaking {
+    0% {transform: rotate(0deg);}
+    20% {transform: rotate(-4deg);}
+    50% {transform: rotate(0deg);}
+    70% {transform: rotate(4deg);}
+    100% {transform: rotate(0deg);}
+ }
