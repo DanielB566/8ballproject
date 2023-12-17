@@ -6,7 +6,7 @@
     border: 1px solid #000;
     border-radius: 5px;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
  }
  .style:hover {animation: shaking 0.5s infinite;
 background-color: green;}
@@ -17,3 +17,19 @@ background-color: green;}
     70% {transform: rotate(4deg);}
     100% {transform: rotate(0deg);}
  }
+
+ body{
+   background-color: lightblue;
+ }
+
+
+h1{
+   font-size: 5rem;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.textstyle{
+   font-size: 3rem;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
